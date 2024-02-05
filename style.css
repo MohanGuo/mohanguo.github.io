@@ -61,21 +61,15 @@ section p {
 #introduction {
     display: flex;
     align-items: center;
-    text-align: center;
 }
 
 .intro-pic {
-    flex: 1; /* Assigns a flex factor to the image container */
-    text-align: left;
-}
-
-.intro-pic img {
-    width: 100%; /* You can adjust this as necessary */
-    max-width: 800px; /* Adjust as needed */
-    border-radius: 100%;
+    margin-right: auto; /* push the text to the center */
 }
 
 .intro-content {
-    flex: 2; /* Assigns a larger flex factor to the content container */
-    padding: 0 20px; /* Adds some padding around the text */
+    flex-grow: 1;
+    text-align: center;
+    margin-left: auto; /* center the content */
+    margin-right: auto;
 }
