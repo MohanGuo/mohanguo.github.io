@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background: #50b3a2;
+    background: #56ae50;
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -56,4 +56,28 @@ section h1 {
 
 section p {
     line-height: 1.6;
+}
+
+#introduction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro-content {
+    width: 60%;
+}
+
+.intro-pic {
+    width: 40%;
+}
+
+.intro-pic img {
+    width: 100%;
+    max-width: 200px; /* Adjust as needed */
+    border-radius: 50%;
+}
+
+.hidden {
+    display: none;
 }
