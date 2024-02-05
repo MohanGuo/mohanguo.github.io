@@ -1,7 +1,125 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <title>Your Name - Curriculum Vitae</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #50b3a2;
+            color: white;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            margin: 0 10px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header .highlight, header .current a {
+            color: #e8491d;
+            font-weight: bold;
+        }
+        header a:hover {
+            color: #ffffff;
+            font-weight: bold;
+        }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Your</span> Name</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Introduction Section -->
+        <section id="introduction">
+            <h1>Introduction</h1>
+            <p>
+                Brief introduction about yourself. Include a professional summary or career objective.
+            </p>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h1>Education</h1>
+            <p>
+                Details about your educational background. Include institutions, degrees, and dates.
+            </p>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience">
+            <h1>Experience</h1>
+            <p>
+                Outline your professional experience. Include job titles, companies, and dates.
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h1>Skills</h1>
+            <p>
+                List of your professional skills. Include both technical and soft skills.
+            </p>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h1>Projects</h1>
+            <p>
+                Showcase of your significant projects. Include descriptions and links if available.
+            </p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h1>Contact</h1>
+            <p>
+                Information on how to contact you. Include your email, phone number, and links to professional profiles (e.g., LinkedIn, GitHub).
+            </p>
+        </section>
+    </div>
 </body>
 </html>
