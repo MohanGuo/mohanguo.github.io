@@ -69,7 +69,11 @@ section p {
 
 .intro-content {
     flex-grow: 1;
-    text-align: center;
+    text-align: right;
     margin-left: auto; /* center the content */
     margin-right: auto;
+}
+
+.hidden {
+    display: none;
 }
