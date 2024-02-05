@@ -71,8 +71,8 @@ section p {
 
 .intro-pic img {
     width: 100%; /* You can adjust this as necessary */
-    max-width: 200px; /* Adjust as needed */
-    border-radius: 50%;
+    max-width: 800px; /* Adjust as needed */
+    border-radius: 100%;
 }
 
 .intro-content {
