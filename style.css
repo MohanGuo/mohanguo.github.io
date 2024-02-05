@@ -66,10 +66,12 @@ section p {
 
 .intro-content {
     width: 60%;
+    text-align: center;
 }
 
 .intro-pic {
     width: 40%;
+    text-align: left;
 }
 
 .intro-pic img {
