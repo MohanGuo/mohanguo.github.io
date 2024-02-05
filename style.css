@@ -60,26 +60,22 @@ section p {
 
 #introduction {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-}
-
-.intro-content {
-    width: 60%;
     text-align: center;
 }
 
 .intro-pic {
-    width: 40%;
+    flex: 1; /* Assigns a flex factor to the image container */
     text-align: left;
 }
 
 .intro-pic img {
-    width: 100%;
+    width: 100%; /* You can adjust this as necessary */
     max-width: 200px; /* Adjust as needed */
     border-radius: 50%;
 }
 
-.hidden {
-    display: none;
+.intro-content {
+    flex: 2; /* Assigns a larger flex factor to the content container */
+    padding: 0 20px; /* Adds some padding around the text */
 }
