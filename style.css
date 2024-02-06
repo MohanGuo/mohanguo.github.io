@@ -116,13 +116,41 @@ section p, section ul {
     color: #56ae50;
     margin-bottom: 10px;
 }
-.publications-block ul {
+/* .publications-block ul {
+    list-style-type: circle;
+    margin: 10px 0;
+    padding-left: 20px;
+} */
+
+
+
+/* The rest of your CSS remains unchanged */
+.internship-block {
+    margin-bottom: 20px;
+}
+
+.internship-block h3 {
+    color: #56ae50;
+    margin-bottom: 10px;
+}
+
+.internship-block ul {
     list-style-type: circle;
     margin: 10px 0;
     padding-left: 20px;
 }
 
+.internship-block ul li strong {
+    font-weight: bold;
+}
 
+/* Assuming .hidden, h3, and other base styles are already defined as shown previously */
 
-/* The rest of your CSS remains unchanged */
+.skills-block ul, .certifications-block ul, .interests-block ul {
+    list-style-type: circle; /* or 'none' if you don't want bullet points */
+    padding-left: 20px; /* Adjust as needed for alignment */
+}
+
+/* Add any additional specific styles for these blocks if needed */
+
 
