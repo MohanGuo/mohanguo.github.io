@@ -154,13 +154,11 @@ section p, section ul {
 /* Add any additional specific styles for these blocks if needed */
 
 
-.section-style {
-    /* Previous styles for sections */
+/* .section-style {
     display: none;
-}
+} */
 
-.section-style h2 {
-    /* Previous styles for h2 */
+/* .section-style h2 {
 }
 
 .section-style p {
@@ -170,5 +168,5 @@ section p, section ul {
 
 .section-style i {
     margin-right: 5px;
-    color: #56ae50; /* Or any other color you prefer */
-}
+    color: #56ae50; 
+} */
