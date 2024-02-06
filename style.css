@@ -108,3 +108,21 @@ section p, section ul {
     line-height: 1.6;
     font-size: 0.95em;
 }
+.research-block, .publications-block, .Honors-block, .activities-block {
+    margin-bottom: 20px;
+}
+
+.research-block h3, .publications-block h3, .Honors-block h3, .activities-block h3  {
+    color: #56ae50;
+    margin-bottom: 10px;
+}
+.publications-block ul {
+    list-style-type: circle;
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+
+
+/* The rest of your CSS remains unchanged */
+
