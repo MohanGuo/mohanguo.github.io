@@ -78,3 +78,33 @@ section p {
 .hidden {
     display: none;
 }
+
+/*Education block*/
+.education-block {
+    margin-bottom: 20px;
+}
+
+.education-block strong {
+    font-size: 1.1em;
+}
+
+.education-block div {
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.education-block ul {
+    list-style-type: circle;
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+section h2 {
+    margin-top: 0;
+    color: #56ae50;
+}
+
+section p, section ul {
+    line-height: 1.6;
+    font-size: 0.95em;
+}
