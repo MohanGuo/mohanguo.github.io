@@ -12,10 +12,24 @@
       color: #333;
     }
     header {
-      background: #1a1a1a;
+      background-image: url('images/header-bg.jpg');
+      background-size: cover;
+      background-position: center;
       color: white;
-      padding: 2rem 1rem;
+      padding: 4rem 1rem;
+      position: relative;
       text-align: center;
+    }
+    header::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.45); 
+      z-index: 0;
+    }
+    header * {
+      position: relative;
+      z-index: 1;
     }
     header img {
       width: 140px;
