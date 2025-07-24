@@ -30,8 +30,19 @@
       font-size: 2.5rem;
     }
     header p {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       margin-top: 0.5rem;
+    }
+    .download-btn {
+      display: inline-block;
+      margin-top: 1rem;
+      background-color: #ffffff;
+      color: #1a1a1a;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      border: 1px solid #ccc;
     }
     section {
       padding: 2rem 1rem;
@@ -43,11 +54,24 @@
       border-bottom: 2px solid #ddd;
       padding-bottom: 0.5rem;
     }
-    ul {
-      padding-left: 1.2rem;
+    .project-card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    .project-card h3 {
+      margin-top: 0;
+      color: #1a1a1a;
+    }
+    .project-card p {
+      margin: 0.3rem 0;
     }
     .contact a {
-      margin-right: 1rem;
+      display: block;
+      margin: 0.5rem 0;
       color: #1a1a1a;
       text-decoration: none;
     }
@@ -64,45 +88,54 @@
   <header>
     <img src="figures/portrait.jpg" alt="Mohan Guo Portrait" />
     <h1>Mohan Guo</h1>
-    <p>AI Scholar | Machine Learning Engineer | 3D Generation & Diffusion Models</p>
+    <p>AI Scholar | Machine Learning Engineer | 3D Molecular Generation | Equivariant Models</p>
+    <a href="CV-industry.pdf" class="download-btn" download>Download CV (PDF)</a>
   </header>
 
   <section>
     <h2>About Me</h2>
     <p>
-      Hi! I am an AI researcher and engineer who thrives on pushing the boundaries of what's possible
-      with cutting-edge technology. My fascination with innovation drives me to tackle complex challenges across
-      the entire AI pipeline — from developing novel mathematical frameworks to optimizing real-time systems.
+      I am a master's student in Artificial Intelligence at the University of Amsterdam, passionate about geometric deep learning, generative modeling, and AI for science. My research focuses on designing frame-based equivariant diffusion models for 3D molecular generation under the supervision of Prof. Patrick Forré and Cong Liu at AMLab.
+    </p>
+    <p>
+      My broader interests include leveraging symmetry, uncertainty, and representation learning to develop scalable, interpretable, and high-performing generative frameworks. I enjoy bridging theoretical insights with real-world applications in computational biology, physics-inspired AI, and intelligent systems.
     </p>
   </section>
 
   <section>
     <h2>Projects & Publications</h2>
-    <ul>
-      <li><strong>Frame-based Equivariant Diffusion Models</strong> – MSc thesis @ AMLab</li>
-      <li><strong>E(n) Equivariant Diffusion Model Optimization</strong> – GRaM @ ICML 2024</li>
-      <li><strong>AI Agent System Development</strong> – Internship @ HAVAS Media Amsterdam</li>
-      <li><strong>Real-Time FMCW Radar System</strong> – IEEE Access 2023</li>
-    </ul>
-  </section>
 
-  <section>
-    <h2>Skills</h2>
-    <ul>
-      <li>Diffusion Models & Generative AI</li>
-      <li>Transformers & LLMs</li>
-      <li>Geometric Deep Learning</li>
-      <li>AI for Science & Molecular Modeling</li>
-      <li>Python, PyTorch, JAX, C++, MATLAB</li>
-    </ul>
+    <div class="project-card">
+      <h3>Frame-based Equivariant Diffusion Models</h3>
+      <p><em>MSc Thesis · AMLab, UvA · Jan–Jul 2025</em></p>
+      <p>Developed a geometric transformer framework for 3D molecular generation, achieving -137.97 NLL (SOTA), 50% inference speedup, and 89.39% structural validity.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>E(n) Equivariant Diffusion Model Optimization</h3>
+      <p><em>GRaM Workshop @ ICML 2024</em></p>
+      <p>Implemented JAX-based equivariant diffusion with flow matching for efficient sampling and improved synthetic accessibility in drug discovery pipelines.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>AI Agent System Development</h3>
+      <p><em>Internship · HAVAS Media Amsterdam · Nov 2024 – May 2025</em></p>
+      <p>Engineered a hallucination-resistant enterprise AI agent with knowledge graph-based validation, achieving 95% factual accuracy in client-facing outputs.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Real-Time FMCW Radar System</h3>
+      <p><em>IEEE Access 2023 · Purple Mountain Laboratory</em></p>
+      <p>Designed an AI-accelerated radar processor chip (12.67ms latency, 256 targets) and led end-to-end system delivery from simulation to fabrication.</p>
+    </div>
   </section>
 
   <section class="contact">
     <h2>Contact</h2>
-    <p>Email: mohan.guo@student.uva.nl</p>
     <p>
-      <a href="https://github.com/MohanGuo" target="_blank">GitHub</a>
-      <a href="https://www.linkedin.com/in/mohan-guo-19970902bestmg" target="_blank">LinkedIn</a>
+      📧 <a href="mailto:mohan.guo@student.uva.nl">mohan.guo@student.uva.nl</a><br/>
+      🔗 <a href="https://github.com/MohanGuo" target="_blank">GitHub: @MohanGuo</a><br/>
+      💼 <a href="https://www.linkedin.com/in/mohan-guo-19970902bestmg" target="_blank">LinkedIn Profile</a>
     </p>
   </section>
 
